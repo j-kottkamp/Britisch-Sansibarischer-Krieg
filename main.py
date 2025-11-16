@@ -811,7 +811,7 @@ def display_event(event):
             st.markdown('<div class="image-container">', unsafe_allow_html=True)
             st.image(event["picture"], 
                     caption=f"📸 Szene um {event['zeit']}", 
-                    use_container_width=True)
+                    width='stretch')
             st.markdown('</div>', unsafe_allow_html=True)
             
         except Exception as e:
@@ -835,7 +835,7 @@ if not st.session_state.button_pressed:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.image(preface_images[st.session_state.preface_index],use_container_width=True)
+        st.image(preface_images[st.session_state.preface_index], width='stretch')
         
     with col2:
         st.markdown(preface[st.session_state.preface_index])
