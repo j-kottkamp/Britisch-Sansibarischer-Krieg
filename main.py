@@ -845,13 +845,13 @@ def display_event(event, header2):
         if "picture" in event and event["picture"]:
             print(event["picture"])
             try:
-                st.markdown('<div class="image-container">', unsafe_allow_html=True)
+                st.html('<div class="image-container">')
                 print("inside markdown")
                 st.image(event["picture"], 
                         caption=f"📸 Szene um {event['zeit']}", 
                         width='content')
                 print("after image")
-                st.markdown('</div>', unsafe_allow_html=True)
+                st.html('<div>')
                 
             except Exception as e:
                 st.error(f"Fehler beim Laden des Bildes: {e}")
