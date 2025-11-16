@@ -649,12 +649,12 @@ preface_images = [
 
 quellen = [
     {"name": "Life of Admiral Sir Harry Rawson", "link": "https://archive.org/details/lifeofadmiralsir00raws/page/100/mode/2up"},
-    {"name": "The National Archives — ADM 53 (Royal Navy: Ships' log books)", "link": "https://discovery.nationalarchives.gov.uk/details/r/C1762"},
-    {"name": "Archive.org — Zanzibar in Contemporary Times (Lyne, 1905)", "link": "https://archive.org/details/zanzibarinconte02lynegoog"},
-    {"name": "Robert Frew Antiquariat — HMS St. George Augenzeugenberichte", "link": "https://www.robertfrew.com/stock-detail.php?id=55487"},
-    {"name": "Naval-History.net — HMS St. George Service history", "link": "https://www.naval-history.net/OWShips-WW1-05-HMS_St_George.htm"},
+    {"name": "The National Archives - ADM 53 (Royal Navy: Ships' log books)", "link": "https://discovery.nationalarchives.gov.uk/details/r/C1762"},
+    {"name": "Archive.org - Zanzibar in Contemporary Times (Lyne, 1905)", "link": "https://archive.org/details/zanzibarinconte02lynegoog"},
+    {"name": "Robert Frew Antiquariat - HMS St. George Augenzeugenberichte", "link": "https://www.robertfrew.com/stock-detail.php?id=55487"},
+    {"name": "Naval-History.net - HMS St. George Service history", "link": "https://www.naval-history.net/OWShips-WW1-05-HMS_St_George.htm"},
     {"name": "The Times Archive", "link": "https://www.thetimes.com/tto/archive/find/british+zanzibar+war"},
-    {"name": "NZ History — HMS Philomel", "link": "https://nzhistory.govt.nz/war/hms-philomel"},
+    {"name": "NZ History - HMS Philomel", "link": "https://nzhistory.govt.nz/war/hms-philomel"},
     {"name": "Wikipedia - Anglo-Zanzibar War", "link": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"},
     {"name": "Wikipedia - Pictures of Anglo-Zanzibar War", "link": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"},
 ]
@@ -741,12 +741,44 @@ st.markdown("""
         margin: 20px 0;
     }
     
-    .source-link {
+    .sources {
         padding: 12px;
         border-radius: 8px;
         border-left: 4px solid #2196f3;
         transition: all 0.8s ease;
     }
+    
+    .source-title {
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    .source-container {
+        margin-top: 20px;
+        padding: 15px;
+        background: #1f2029;
+        border-radius: 10px;
+    }
+
+    .source-link {
+        display: block;
+        padding: 10px;
+        border-left: 4px solid #2196f3;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        background: #262833;
+        color: #e8e8e8 !important;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .source-link:hover {
+        background: #30323f;
+        transform: translateX(5px);
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -797,7 +829,7 @@ def display_event(event, header2):
     # Source section (full width)
     if event['quelle'] and event['quelle'].strip():
         st.markdown(f"""
-        <div class="source-link">
+        <div class="sources">
             <div class="icon-header">
                 <i class="fas fa-book"></i>
                 <h4 style="margin:0; color: #2196f3; font-weight:600;">Quelle</h4>
@@ -806,21 +838,36 @@ def display_event(event, header2):
         </div>
         """, unsafe_allow_html=True)
     
-    # Image with enhanced styling
-    if "picture" in event and event["picture"]:
-        try:
-            st.markdown('<div class="image-container">', unsafe_allow_html=True)
-            st.image(event["picture"], 
-                    caption=f"📸 Szene um {event['zeit']}", 
-                    width='content')
-            st.markdown('</div>', unsafe_allow_html=True)
-            
-        except Exception as e:
-            st.error(f"Fehler beim Laden des Bildes: {e}")
+    image, source = st.columns(2)
     
-    st.markdown('</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
-    
+    with image:
+        # Image with enhanced styling
+        if "picture" in event and event["picture"]:
+            try:
+                st.markdown('<div class="image-container">', unsafe_allow_html=True)
+                st.image(event["picture"], 
+                        caption=f"📸 Szene um {event['zeit']}", 
+                        width='content')
+                st.markdown('</div>', unsafe_allow_html=True)
+                
+            except Exception as e:
+                st.error(f"Fehler beim Laden des Bildes: {e}")
+        
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+        
+    with source:
+        st.markdown("<div class='source-title'>Quellen & Nachweise (Teilweise Analyse durch NotebookLM)</div>", unsafe_allow_html=True)
+
+        for q in quellen:
+            st.markdown(
+                f"<a class='source-link' href='{q['link']}' target='_blank'>"
+                f"<i class='fa-solid fa-up-right-from-square'></i> {q['name']}"
+                "</a>",
+                unsafe_allow_html=True
+            )
+
+
 
     
 
