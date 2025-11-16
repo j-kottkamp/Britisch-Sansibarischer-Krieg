@@ -843,11 +843,14 @@ def display_event(event, header2):
     with image:
         # Image with enhanced styling
         if "picture" in event and event["picture"]:
+            print(event["picture"])
             try:
                 st.markdown('<div class="image-container">', unsafe_allow_html=True)
+                print("inside markdown")
                 st.image(event["picture"], 
                         caption=f"📸 Szene um {event['zeit']}", 
                         width='content')
+                print("after image")
                 st.markdown('</div>', unsafe_allow_html=True)
                 
             except Exception as e:
