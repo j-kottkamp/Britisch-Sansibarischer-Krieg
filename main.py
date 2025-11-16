@@ -30,7 +30,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Die Briten demonstrieren imperialistische Entschlossenheit - 
         Rawson führt einen chirurgischen Schlag zur sofortigen Demoralisierung des Gegners""",
         "quelle": "Britisches Admiralitätslog, Rawson-Bericht an Admiralität",
-        "picture": "bilder/bild_0.png"
+        "picture": "bilder/Bild_0.png"
     },
     
     1: {
@@ -45,7 +45,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Britische Doktrin der überwältigenden Feuerüberlegenheit wird perfekt umgesetzt - 
         Ziel ist die sofortige Kampfunfähigkeit des Gegners""",
         "quelle": "Britisches Admiralitätslog, Schiffslogs der beteiligten Einheiten",
-        "picture": "bilder/bild_1.png"
+        "picture": "bilder/Bild_1.png"
     },
     
     2: {
@@ -59,7 +59,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Symbolischer Akt des Widerstands ohne reale militärische Bedeutung - 
         demonstriert das Machtgefälle zwischen imperialer Marine und lokalen Streitkräften""",
         "quelle": "Admiralitätslog, Augenzeugenberichte deutscher Konsulatsangehöriger",
-        "picture": "bilder/bild_2.png"
+        "picture": "bilder/Bild_2.png"
     },
     
     3: {
@@ -74,7 +74,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Systematische Eliminierung jeglicher gegnerischen Marinepräsenz - 
         typisches Vorgehen imperialer Mächte zur Sicherung der Seeherrschaft""",
         "quelle": "Britisches Admiralitätslog",
-        "picture": "bilder/bild_3.png"
+        "picture": "bilder/Bild_3.png"
     },
     
     4: {
@@ -89,7 +89,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Klassischer Fall von 'Shock and Awe' vor der Begriffsprägung - 
         überwältigende Gewaltanwendung zur schnellen Konfliktbeendigung""",
         "quelle": "Admiralitätslog",
-        "picture": "bilder/bild_4.png"
+        "picture": "bilder/Bild_4.png"
     },
     
     5: {
@@ -104,7 +104,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Übergang von der Zerstörungs- zur Kontrollphase - 
         Briten etablieren faktische Seeherrschaft vor Sansibar""",
         "quelle": "Britisches Admiralitätslog, Bennett (1978)",
-        "picture": "bilder/bild_5.png"
+        "picture": "bilder/Bild_5.png"
     },
 # Minute 6 - Übergang zur Zielauswahl
     6: {
@@ -118,7 +118,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Übergang von der Zerstörungs- zur Kontrollphase - 
         Briten demonstrieren Fähigkeit zu chirurgischen Schlägen nach initialem Schock""",
         "quelle": "Britisches Admiralitätslog, Schiffsartillerieprotokolle",
-        "picture": "bilder/bild_6.png"
+        "picture": "bilder/Bild_6.png"
     },
 
     # Minute 7-9 - Konsolidierungsphase
@@ -133,7 +133,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Demonstration von Kontrolle durch dosierte Gewaltanwendung - 
         typisch für imperialistische Interventionen zur Aufrechterhaltung des Drucks""",
         "quelle": "Admiralitätslog, Beobachterberichte der HMS Philomel",
-        "picture": "bilder/bild_7.png"
+        "picture": "bilder/Bild_7.png"
     },
 
     8: {
@@ -147,7 +147,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Psychologische Kriegführung durch demonstrative Feuerpausen 
         gefolgt von punktuellen Schlägen - bricht verbliebenen Widerstandswillen""",
         "quelle": "Flaggsignallogs, Historiker: Bennett 1978",
-        "picture": "bilder/bild_8.png"
+        "picture": "bilder/Bild_8.png"
     },
 
     9: {
@@ -161,7 +161,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Perfekte Timing - militärische Aktion endet genau mit Erreichen der politischen Ziele - 
         Meisterstück imperialer Krisenbewältigung""",
         "quelle": "Diplomatische Depeschen, Konsulatsberichte",
-        "picture": "bilder/bild_9.png"
+        "picture": "bilder/Bild_9.png"
     },
 
     # Minuten 10-20 - Diplomatische Initialphase
@@ -176,7 +176,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Übergang von militärischer zu politischer Dominanz - 
         Briten nutzen die Atempause zur Positionsverbesserung""",
         "quelle": "Schiffslogs, lokale Augenzeugenberichte",
-        "picture": "bilder/bild_10.png"
+        "picture": "bilder/Bild_10.png"
     },
 
     11: {
@@ -190,7 +190,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Demonstration von Sieger-Großmut durch Verzicht auf sofortige Besetzung - 
         klassisches Mittel zur Erleichterung der politischen Unterwerfung""",
         "quelle": "Admiral Rawson Bericht",
-        "picture": "bilder/bild_11.png"
+        "picture": "bilder/Bild_11.png"
     },
 
     12: {
@@ -204,7 +204,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Schnelle Nutzung des militärischen Erfolgs für politische Forderungen - 
         typische Koordination zwischen militärischer und diplomatischer Macht im Empire""",
         "quelle": "Diplomatische Archive, Cave-Berichte an Foreign Office",
-        "picture": "bilder/bild_12.png"
+        "picture": "bilder/Bild_12.png"
     },
 
     13: {
@@ -218,7 +218,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Geschickte Nutzung deutscher Vermittlung zur Wahrung des Gesichts - 
         ermöglicht sansibarischer Seite würdevollere Kapitulation""",
         "quelle": "Deutsche Konsulatsberichte, Britische Außenamtspapiere",
-        "picture": "bilder/bild_13.png"
+        "picture": "bilder/Bild_13.png"
     },
 
     14: {
@@ -232,7 +232,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Wichtiger psychologischer Moment - Flucht des Sultans zerstört 
         letzte Hoffnungen auf Wiederbelebung des Widerstands""",
         "quelle": "Admiral Rawson Bericht",
-        "picture": "bilder/bild_14.png"
+        "picture": "bilder/Bild_14.png"
     },
 
     15: {
@@ -246,7 +246,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Geschicktes Pokerspiel - Androhung weiterer Gewalt 
         bei gleichzeitiger Verhandlungsbereitschaft""",
         "quelle": "Admiral Rawson Bericht, Marine-Infanterie-Logs",
-        "picture": "bilder/bild_15.png"
+        "picture": "bilder/Bild_15.png"
     },
 
     16: {
@@ -260,7 +260,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Ausnutzung innerer Zerstrittenheit des Gegners - 
         klassisches Divide-et-impera in Echtzeit""",
         "quelle": "Lokale Chronisten, britische Geheimdienstberichte",
-        "picture": "bilder/bild_16.png"
+        "picture": "bilder/Bild_16.png"
     },
 
     17: {
@@ -274,7 +274,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Effektive Koordination zwischen britischer und deutscher Diplomatie - 
         zeigt europäische Solidarität in imperialen Grundsatzfragen""",
         "quelle": "Deutsch-britische diplomatische Korrespondenz",
-        "picture": "bilder/bild_17.png"
+        "picture": "bilder/Bild_17.png"
     },
 
     18: {
@@ -288,7 +288,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Beginnender Erfolg der kombinierten Militär-Diplomatie-Strategie - 
         sansibarische Seite erkennt Ausweglosigkeit der Situation""",
         "quelle": "Verhandlungsprotokolle, zeitgenössische Berichte",
-        "picture": "bilder/bild_18.png"
+        "picture": "bilder/Bild_18.png"
     },
 
     19: {
@@ -302,7 +302,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Wichtiger Balanceakt - Erhaltung scheinbarer Souveränität 
         bei faktischer Implementierung britischer Kontrolle""",
         "quelle": "Vertragsdokumente, konstitutionelle Analysen",
-        "picture": "bilder/bild_19.png"
+        "picture": "bilder/Bild_19.png"
     },
 
     20: {
@@ -315,7 +315,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Reibungsloser Übergang der Herrschaft - entspricht britischer 
         Präferenz für indirekte Herrschaft durch kooperative lokale Herrscher""",
         "quelle": "Proklamationsdokumente, historische Analysen",
-        "picture": "bilder/bild_20.png"
+        "picture": "bilder/Bild_20.png"
     },
 
     # Minuten 21-30 - Finale Verhandlungsphase
@@ -329,7 +329,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Demonstration imperialer Stärke durch Großzügigkeit gegenüber 
         Besiegten - stabilisiert zukünftige Herrschaftsverhältnisse""",
         "quelle": "Zeremonielle Protokolle, diplomatische Notizen",
-        "picture": "bilder/bild_21.png"
+        "picture": "bilder/Bild_21.png"
     },
 
     22: {
@@ -343,7 +343,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Wichtiger Präzedenzfall für 'regime change' durch imperialen Druck - 
         Kombination aus militärischer Macht und legalistischer Begründung""",
         "quelle": "Rechtliche Dokumentation, völkerrechtliche Analysen",
-        "picture": "bilder/bild_22.png"
+        "picture": "bilder/Bild_22.png"
     },
 
     23: {
@@ -357,7 +357,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Schneller Übergang von Krieg zu Friedenssicherung - 
         zeugt von professioneller Planung und Erfahrung in kolonialen Operationen""",
         "quelle": "Administrative Berichte, Logistikprotokolle",
-        "picture": "bilder/bild_23.png"
+        "picture": "bilder/Bild_23.png"
     },
 
     24: {
@@ -371,7 +371,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Perfekte Synchronisation militärischer und diplomatischer 
         Zeitabläufe - professionelle Krisenbewältigung""",
         "quelle": "Kommunikationslogs, Verfahrensprotokolle",
-        "picture": "bilder/bild_24.png"
+        "picture": "bilder/Bild_24.png"
     },
 
     25: {
@@ -385,7 +385,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Geschickte Nutzung symbolischer Politik zur Konsolidierung 
         militärischer Erfolge - typisch für britische Imperialpraxis""",
         "quelle": "Zeremonielle Aufzeichnungen, Protokollhandbücher",
-        "picture": "bilder/bild_25.png"
+        "picture": "bilder/Bild_25.png"
     },
 
     26: {
@@ -399,7 +399,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Sorgfältige rechtliche Absicherung des erzwungenen 
         Herrscherwechsels - vermeidet spätere Anfechtungen""",
         "quelle": "Rechtsdokumentation, Sicherheitsberichte",
-        "picture": "bilder/bild_26.png"
+        "picture": "bilder/Bild_26.png"
     },
 
     27: {
@@ -413,7 +413,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Politischer Kompromiss ermöglicht sauberen Schnitt - 
         Vermeidung von Märtyrertum des gestürzten Sultans""",
         "quelle": "Asyldokumente, Evakuierungsprotokolle",
-        "picture": "bilder/bild_27.png"
+        "picture": "bilder/Bild_27.png"
     },
 
     28: {
@@ -427,7 +427,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Bewusste Inszenierung für internationale Öffentlichkeit - 
         Demonstration britischer Entschlossenheit und Großzügigkeit""",
         "quelle": "Presseberichte, fotografische Dokumentation",
-        "picture": "bilder/bild_28.png"
+        "picture": "bilder/Bild_28.png"
     },
 
     29: {
@@ -441,7 +441,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Professionelle Nachkriegsplanung - vermeidet unnötige 
         Reibereien und stabilisiert Besatzungsregime""",
         "quelle": "Militärische Direktiven, Sanitätsberichte",
-        "picture": "bilder/bild_29.png"
+        "picture": "bilder/Bild_29.png"
     },
 
     30: {
@@ -455,7 +455,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Perfekte choreographierte Übergabe - entspricht 
         britischer Vorliebe für geordnete und rechtmäßig erscheinende Machtwechsel""",
         "quelle": "Protokollarische Aufzeichnungen, zeitgenössische Chroniken",
-        "picture": "bilder/bild_30.png"
+        "picture": "bilder/Bild_30.png"
     },
 
     # Minuten 31-36 - Finale Vorbereitungen
@@ -470,7 +470,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Moderne Medienstrategie - Sicherstellung positiver 
         Darstellung britischen Vorgehens in Weltöffentlichkeit""",
         "quelle": "Presseanweisungen, Medienberichte",
-        "picture": "bilder/bild_31.png"
+        "picture": "bilder/Bild_31.png"
     },
 
     32: {
@@ -484,7 +484,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Demonstration vollständiger Kontrolle durch 
         präzise choreographierte Marineformationen""",
         "quelle": "Formationsbefehle, zeremonielle Protokolle",
-        "picture": "bilder/bild_32.png"
+        "picture": "bilder/Bild_32.png"
     },
 
     33: {
@@ -498,7 +498,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Sorgfältige Dokumentation für Geschichtsschreibung und 
         rechtliche Absicherung des Vorgehens""",
         "quelle": "Amtliche Verlautbarungen, Archivdokumente",
-        "picture": "bilder/bild_33.png"
+        "picture": "bilder/Bild_33.png"
     },
 
     34: {
@@ -512,7 +512,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Perfekte Abstimmung zwischen politischen, militärischen 
         und zeremoniellen Aspekten der Konfliktbeendigung""",
         "quelle": "Zeremonielle Anweisungen, Protokollnotizen",
-        "picture": "bilder/bild_34.png"
+        "picture": "bilder/Bild_34.png"
     },
 
     35: {
@@ -526,7 +526,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Psychologisch wichtiger Moment der Stille - 
         markiert bewusst den Epochenwechsel in Sansibars Geschichte""",
         "quelle": "Zeitgenössische Beschreibungen, literarische Verarbeitungen",
-        "picture": "bilder/bild_35.png"
+        "picture": "bilder/Bild_35.png"
     },
 
     36: {
@@ -540,7 +540,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Maximale symbolische Aufladung des finalen Aktes - 
         bewusste Inszenierung historischer Bedeutung""",
         "quelle": "Protokollarische Aufzeichnungen, Signallogs",
-        "picture": "bilder/bild_36.png"
+        "picture": "bilder/Bild_36.png"
     },
 
     37: {
@@ -554,7 +554,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Perfekte Umsetzung britischer Imperialstrategie - 
         schneller militärischer Sieg gefolgt von sofortiger politischer Konsolidierung""",
         "quelle": "The Times, diplomatische Depeschen, Hern (2003)",
-        "picture": "bilder/bild_37.png"
+        "picture": "bilder/Bild_37.png"
     },
 
     38: {
@@ -568,7 +568,7 @@ anglo_zanzibar_war_timeline = {
         "strategische_bewertung": """Abschluss einer textbookmäßigen imperialen Intervention - 
         Demonstration von Machtprojektion und politischer Entschlossenheit des British Empire""",
         "quelle": "Admiralitätslog, Besatzungsberichte, historische Analysen",
-        "picture": "bilder/bild_38.png"
+        "picture": "bilder/Bild_38.png"
     }}
 
 # Analyse- und Kontextmodul
@@ -811,7 +811,7 @@ def display_event(event):
             st.markdown('<div class="image-container">', unsafe_allow_html=True)
             st.image(event["picture"], 
                     caption=f"📸 Szene um {event['zeit']}", 
-                    width='stretch')
+                    width='content')
             st.markdown('</div>', unsafe_allow_html=True)
             
         except Exception as e:
