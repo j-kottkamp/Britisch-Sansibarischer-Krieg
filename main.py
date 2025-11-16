@@ -724,7 +724,7 @@ st.markdown("""
         border-radius: 20px;
         display: inline-block;
         margin-bottom: 20px;
-        font-weight: 600;
+        font-weight: 800;
         box-shadow: 0 2px 10px rgba(255,107,107,0.3);
     }
     
@@ -763,15 +763,16 @@ def create_event_section(icon, title, content, color="#667eea"):
         </div>
         """, unsafe_allow_html=True)
 
-def display_event(event):
+def display_event(event, header2):
     """Display event information in a formatted card"""
         
-    # Timestamp with dynamic styling
-    st.markdown(f"""
-    <div class="timestamp">
-        <i class="fas fa-clock"></i> {event['zeit']}
-    </div>
-    """, unsafe_allow_html=True)
+    with header2:
+        # Timestamp with dynamic styling
+        st.markdown(f"""
+        <div class="timestamp">
+            <i class="fas fa-clock"></i> {event['zeit']}
+        </div>
+        """, unsafe_allow_html=True)
     
     # Create columns for better layout
     col1, col2 = st.columns([3, 2])
@@ -835,7 +836,7 @@ if not st.session_state.button_pressed:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.image(preface_images[st.session_state.preface_index], width='stretch')
+        st.image(preface_images[st.session_state.preface_index], use_container_width=True)
         
     with col2:
         st.markdown(preface[st.session_state.preface_index])
@@ -853,11 +854,14 @@ if not st.session_state.button_pressed:
         
 else:
     title = st.title("📜 Britisch-Sansibarischer Krieg (1896) – Interaktive Timeline")
-    st.write("Wähle eine Minute aus, um die Ereignisse dieses Zeitpunkts anzuzeigen.")
-
+    header1, header2 = st.columns(2)
+    with header1:
+        st.write("Wähle eine Minute aus, um die Ereignisse dieses Zeitpunkts anzuzeigen.")
+    
+    
     minute = st.slider("Minute auswählen:", min_value=0, max_value=38, value=0)
 
     event = anglo_zanzibar_war_timeline[minute]
 
-    display_event(event)
+    display_event(event, header2)
 
