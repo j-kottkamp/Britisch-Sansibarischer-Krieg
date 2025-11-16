@@ -844,17 +844,17 @@ def display_event(event, header2):
         # Image with enhanced styling
         if "picture" in event and event["picture"]:
             print(event["picture"])
-            #try:
-            st.html('<div class="image-container">')
-            print("inside markdown")
-            st.image(event["picture"], 
-                    caption=f"📸 Szene um {event['zeit']}", 
-                    width='content')
-            print("after image")
-            st.html('<div>')
+            try:
+                st.html('<div class="image-container">')
+                print("inside markdown")
+                st.image(event["picture"], 
+                        caption=f"📸 Szene um {event['zeit']}", 
+                        width='content')
+                print("after image")
+                st.html('<div>')
                 
-            #except Exception as e:
-            #    st.error(f"Fehler beim Laden des Bildes: {e}")
+            except Exception as e:
+                st.error(f"Fehler beim Laden des Bildes: {e}")
         
         st.markdown('</div>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
